@@ -1,0 +1,17 @@
+@import 'variables';
+
+.header {
+    @extend .fs-4;
+    @extend .text-dark;
+    @extend .text-decoration-none;
+}
+
+.header::first-letter {
+    color: $blue;
+}
+
+.table-align-middle {
+    th, td {
+        vertical-align: middle;
+    }
+}
